@@ -6,3 +6,147 @@ Green: #00B172
 White: #FFF
 
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    background-color: #FFF;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 33%;
+    font-weight: 200;
+    margin: auto 0;
+}
+
+nav img {
+    height: 3rem;
+}
+
+#bg-img {
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    aspect-ratio: 1.5;
+    color: #FFF;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#bg-img h1 {
+    font-size: 4rem;
+    font-weight: 500;
+    margin: 2rem;
+}
+
+#bg-img p {
+    font-weight: 300;
+    font-size: 1.5rem;
+    width: 50%;
+    align-self: center;
+    text-align: center;
+    margin: 0.2rem;
+}
+
+#content h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center; 
+    text-decoration: underline;
+    text-decoration-color: #00B172;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 2px;
+    margin: 1.5rem 0;
+}
+
+#content img {
+    height: 60px;
+}
+
+#content > div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#content h3 {
+    color: #00B172;
+    margin: 0.5rem auto 1rem;
+}
+
+#content > div > div {
+    width: 30%;
+}
+
+#content p {
+    width: 80%;
+    margin: auto;
+}
+
+#content {
+    margin: 3rem 0;
+}
+
+
+#artist {
+    background-color: #00B172;
+    color: #FFF;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    position: relative;
+}
+
+#artist > div > img {
+    width: 20rem;
+    margin-top: 4rem;
+}
+
+#artist > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#artist h2 {
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-thickness: 3px;
+    font-size: 2rem;
+}
+
+#artist h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-bottom: 1.5rem;
+}
+
+#artist > div > div {
+    width: 50%;
+}
+
+.spotify-icon-white {
+    position: absolute;
+    height: 6rem;
+    top: 50%;
+    left: 50%;
+    translate: -50%, -50%;
+}
